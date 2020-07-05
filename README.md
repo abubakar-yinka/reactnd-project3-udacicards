@@ -6,9 +6,11 @@ This react Native project app was created Using the following commands:
 
 - expo init reactnd-project3-udacicards
 
-- cd AwesomeProject npm start 
+- cd reactnd-project3-udacicards 
 
-- you can also use: expo start
+- yarn start 
+
+- expo start is another option to start the project
 
 It uses React Native, Expo, React-Redux, Redux, & React Navigation.
 
