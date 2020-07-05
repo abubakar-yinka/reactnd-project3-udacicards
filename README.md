@@ -36,17 +36,11 @@ The project can be run with npm, yarn or expo
 
 This will then open the Expo Developer Tools in your browser. You can then run the app with live reloading using one of the following:
 
- To run the app with live reloading, choose one of:
-  • Scan the QR code above with the Expo app (Android) or the Camera app (iOS).
-  • Press a for Android emulator, or w to run on web.
-  • Press e to send a link to your phone with email.
-  • Press s to sign in and enable more options.
-
-- Use your Android or iOS device to test:
+- Your Android or iOS device to test:
 
     • Scan the QR code above with the Expo app (Android) or the Camera app (iOS).
 
-- Use an Android Emulator or iOS Simulator to run the app:
+- An Android Emulator or iOS Simulator to run the app:
     • By Pressing 'a' for Android emulator, or 'w' to run on web.
     
 - You can also Press 'e' to enable them send a link to your phone with email.
