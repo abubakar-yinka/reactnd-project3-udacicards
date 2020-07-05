@@ -41,7 +41,7 @@ This will then open the Expo Developer Tools in your browser. You can then run t
     • Scan the QR code above with the Expo app (Android) or the Camera app (iOS).
 
 - An Android Emulator or iOS Simulator to run the app:
-    • By Pressing 'a' for Android emulator, or 'w' to run on web.
+    • By Pressing 'a' for Android emulator.
     
 - You can also Press 'e' to enable them send a link to your phone with email.
     
