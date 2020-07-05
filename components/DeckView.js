@@ -8,7 +8,6 @@ import { gray, textGray, green, white, red } from '../utils/colors';
 import { connect } from 'react-redux';
 import { removeDeck } from '../actions/index';
 import { removeDeck_ } from '../utils/api';
-import { NavigationActions } from 'react-navigation';
 
 export class DeckView extends Component {
   static propTypes = {

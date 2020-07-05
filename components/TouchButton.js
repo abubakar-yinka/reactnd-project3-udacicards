@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Text, View, TouchableOpacity, StyleSheet } from 'react-native';
-import { textGray, white, darkGray, gray } from '../utils/colors';
+import { white, darkGray, gray } from '../utils/colors';
 
 export default function TouchButton({
   children,
@@ -15,7 +15,6 @@ export default function TouchButton({
   return (
     <View style={styles.btnContainer}>
       <TouchableOpacity
-        // style={[styles.btn, btnStyle, disabled ? styles.btnDisabled : null]}
         style={[styles.btn, btnStyle, disabledButton]}
         onPress={onPress}
         disabled={disabled}
@@ -24,7 +23,6 @@ export default function TouchButton({
           style={[
             styles.btnText,
             txtStyle,
-            // disabled ? styles.btnTextDisabled : {}
             disabledButtonText
           ]}
         >
@@ -34,6 +32,14 @@ export default function TouchButton({
     </View>
   );
 }
+
+TouchButton.propTypes = {
+  children: PropTypes.string.isRequired,
+  onPress: PropTypes.func.isRequired,
+  btnStyle: PropTypes.object,
+  txtStyle: PropTypes.object,
+  disabled: PropTypes.bool
+};
 
 const styles = StyleSheet.create({
   btnContainer: {
@@ -64,10 +70,4 @@ const styles = StyleSheet.create({
   }
 });
 
-TouchButton.propTypes = {
-  children: PropTypes.string.isRequired,
-  onPress: PropTypes.func.isRequired,
-  btnStyle: PropTypes.object,
-  txtStyle: PropTypes.object,
-  disabled: PropTypes.bool
-};
+

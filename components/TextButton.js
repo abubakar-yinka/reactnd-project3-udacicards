@@ -14,11 +14,7 @@ export default function TextButton({ children, onPress, txtStyle = {} }) {
 
 const styles = StyleSheet.create({
   btnContainer: {
-    // flex: 1,
-    // justifyContent: 'flex-end',
     alignItems: 'center',
-    // borderWidth: 1,
-    // borderColor: 'blue',
     marginBottom: 20
   },
   btnText: {
